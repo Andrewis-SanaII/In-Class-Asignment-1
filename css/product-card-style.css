@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin-top: 120px; /* Separation from top */
+  font-family: Arial, sans-serif;
+  color: lightgray;
+}
+
+/* Parent Container */
+.product-card {
+  display: flex;
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Image Column */
+.left-img-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Right Information Column */
+.right-info-col {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Headings and Descriptions */
+.right-info-col h3 {
+  font-size: 32px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.right-info-col h5 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.right-info-col p {
+  font-size: 14px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+/* Available Colors Section */
+.available-colors {
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.available-colors span {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.black-color-container,
+.red-color-container,
+.white-color-container {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.black-color-container {
+  background-color: black;
+}
+
+.red-color-container {
+  background-color: red;
+}
+
+.white-color-container {
+  background-color: beige;
+}
+
+/* Price and Button Section */
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.price h4 {
+  font-size: 32px;
+  color: black;
+}
+
+.buy-btn {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background-color: darkgray;
+}
